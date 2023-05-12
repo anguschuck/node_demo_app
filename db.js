@@ -3,7 +3,7 @@ const db = process.env.DB_URI;
 
 //const db = 'mongodb+srv://anguschuck:rpdm5fezs3Z5y8uL@clusterdemoapp.ye7fw9q.mongodb.net/?retryWrites=true&w=majority';
 
-console.log(db);
+console.log({ path: '.env' });
 
 async function connectDB() {
     try {
