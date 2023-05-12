@@ -1,4 +1,3 @@
-require("dotenv").config({ path: '.env' });
 const express = require("express");
 const connectDB = require("./db");
 const port = 3000;
